@@ -1,0 +1,17 @@
+.fondo{
+  background-color: blueviolet;
+  height: 617px;
+  position: fixed;
+}
+.txt1{
+  font-family:'Verdana';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-top: 230px;
+  margin-left: 100px;
+}
+.img{
+  width: 400px;
+  margin-top: 40px;
+}

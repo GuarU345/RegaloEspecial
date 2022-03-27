@@ -3,6 +3,7 @@
   height: 617px;
 }
 .primertitulo{
+  font-family: 'Courier New';
   color: white;
   text-align: center;
   margin-left: 20px;
@@ -11,6 +12,7 @@
   color: white;
   text-align: center;
   margin-left: 20px;
+  font-family: 'Courier New';
 }
 .mov{
   width: 100%;
@@ -26,6 +28,7 @@
   color: white;
 }
 .fecha{
+  font-family: 'Impact';
   color: white;
   text-align: center;
   margin-top: 210px;
