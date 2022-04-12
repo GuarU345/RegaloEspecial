@@ -11,5 +11,14 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  ver(){
+    return alert("Estas segura que lo deseas ver es demasiada hermosura para el ser humano")
+  }
+  final(){
+    return alert("Es el final de la pagina mas no el de nuestra historia")
+  }
+  continuara(){
+    return alert("Una pequeña parte de una historia que apenas comienza")
+  }
 
 }

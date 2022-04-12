@@ -11,6 +11,14 @@ import { PortadaComponent } from './Componentes/portada/portada.component';
 import { PrimerasfotosComponent } from './Componentes/primerasfotos/primerasfotos.component';
 import { CancionfavComponent } from './Componentes/cancionfav/cancionfav.component';
 import { FotofavComponent } from './Componentes/fotofav/fotofav.component';
+import { BautizoComponent } from './Componentes/bautizo/bautizo.component';
+import { CancionesComponent } from './Componentes/canciones/canciones.component';
+import { ReactiveFormsModule,FormsModule } from '@angular/forms';
+import { MsjbonitosComponent } from './Componentes/msjbonitos/msjbonitos.component';
+import { GaleriaComponent } from './Componentes/galeria/galeria.component';
+import { SalidasvariasComponent } from './Componentes/salidasvarias/salidasvarias.component';
+import { SecretoComponent } from './Componentes/secreto/secreto.component';
+import { FinalComponent } from './Componentes/final/final.component';
 
 @NgModule({
   declarations: [
@@ -23,11 +31,20 @@ import { FotofavComponent } from './Componentes/fotofav/fotofav.component';
     PortadaComponent,
     PrimerasfotosComponent,
     CancionfavComponent,
-    FotofavComponent
+    FotofavComponent,
+    BautizoComponent,
+    CancionesComponent,
+    MsjbonitosComponent,
+    GaleriaComponent,
+    SalidasvariasComponent,
+    SecretoComponent,
+    FinalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
